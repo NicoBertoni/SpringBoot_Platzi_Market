@@ -21,7 +21,7 @@ public class PurchaseService {
         return purchaseRepository.getByClient(clientId);
     }
 
-    public Purchase save(Purchase purchase){
+    public Purchase save(Purchase purchase) {
         return purchaseRepository.save(purchase);
     }
 
